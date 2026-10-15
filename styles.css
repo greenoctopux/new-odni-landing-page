@@ -98,3 +98,38 @@ img{
     cursor: pointer;
     margin-top: 20px;
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 50px;
+    align-items: center;
+}
+
+.blue-box{
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
